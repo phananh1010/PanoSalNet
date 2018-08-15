@@ -18,7 +18,7 @@ Head movement prediction is the key enabler for the emerging 360-degree videos s
 ## Saliency groundtruth generation.
 
 ## PanoSalNet
-![panosalnet-fig](https://github.com/phananh1010/PanoSalNet/blob/master/360net.pdf)
+![panosalnet-fig](360net.pdf)
 
 
 # Contact
