@@ -34,4 +34,4 @@ solver.test_nets[0].blobs['data1'].data[0] = img
 
 solver.test_nets[0].forward(start='conv1')
 fx = solver.test_nets[0].blobs['deconv1'].data[0][0]
-
+fx = post_filter(fx)
