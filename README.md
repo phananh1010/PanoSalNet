@@ -19,6 +19,20 @@ Head movement prediction is the key enabler for the emerging 360-degree videos s
 
 ## PanoSalNet
 ![panosalnet-fig](PanoSalNet.png)
+### Installation
+1. Install Caffe. We use Python Caffe. Please refer to Caffe [website](http://caffe.berkeleyvision.org/installation.html) for installation instruction.
+2. Get the code.
+  ```Shell
+  git clone https://github.com/phananh1010/PanoSalNet.git
+  cd PanoSalnet
+  git checkout master
+  ```
+### Preparation
+1. Download our model weight file [here](https://www.dropbox.com/s/smiplkpqlv0npsm/panosalnet_iter_800.caffemodel?dl=0)
+2. Copy the file to the same folder with panosalnet.py file. 
+
+### Test/Evaluation
+To run our model, please refer to panosalnet.py.
 
 
 # Contact
