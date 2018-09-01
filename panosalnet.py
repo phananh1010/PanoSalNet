@@ -1,7 +1,16 @@
+#TODO: load the panosalnet model, create salient map from input image
+#input: model config file: panosalnet_test.prototxt
+#       model weight: 'panosalnet_iter_800.caffemodel
+#       input image: test.png
+
 import cv2
 import numpy as np
 import caffe
 import timeit
+
+FILE_MODEL_CONFIG = 'panosalnet_test.prototxt'
+FILE_MODEL_WEIGHT = 'panosalnet_iter_800.caffemodel'
+FILE_IMAGE = 'test.png'
 
 def post_filter(_img):
     result = np.copy(_img)
@@ -11,13 +20,13 @@ def post_filter(_img):
     result[-3:, -3:] = _img.min()
     return result
 
-net = caffe.Net('panosalnet_test.prototxt', caffe.TEST)
-net.copy_from('panosalnet_iter_800.caffemodel')
+net = caffe.Net(FILE_MODEL_CONFIG, caffe.TEST)
+net.copy_from(FILE_MODEL_WEIGHT )
 
 C, H, W = net.blobs['data1'].data[0].shape
 
-img_filepath = 'test.png'
-img = cv2.imread(img_filepath)
+
+img = cv2.imread(FILE_IMAGE)
 mu = [ 104.00698793, 116.66876762, 122.67891434]
 input_scale = 0.0078431372549
 
