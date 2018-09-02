@@ -55,4 +55,4 @@ To run head prediction model, refer to lstm.py
 
 
 # Contact
-If you have any general doubt about our work, please use the [public issues section](repohttps://github.com/phananh1010/PanoSalNet/issues) on this github. Alternatively, drop us an e-mail at <mailto:anguyen139@student.gsu.edu> or <mailto:zyan@gsu.edu>.
+If you have any general doubt about our work, please use the [public issues section](https://github.com/phananh1010/PanoSalNet/issues) on this github. Alternatively, drop us an e-mail at <mailto:anguyen139@student.gsu.edu> or <mailto:zyan@gsu.edu>.
