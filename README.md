@@ -34,6 +34,9 @@ Head movement prediction is the key enabler for the emerging 360-degree videos s
 ### Test/Evaluation
 To run our model, please refer to panosalnet.py.
 
+## LSTM Head Prediction
+![panosalnet-fig](lstm.png)
+
 ### Installation
 1. Install [Keras](https://keras.io/#installation), then install [Tensor Flow](https://www.tensorflow.org/install/) as backend.
 2. Install [pyquaternion](http://kieranwynn.github.io/pyquaternion/)
@@ -50,7 +53,6 @@ To run our model, please refer to panosalnet.py.
 ### Test/Evaluation
 To run head prediction model, refer to lstm.py
 
-## LSTM Head Prediction
-![panosalnet-fig](lstm.png)
+
 # Contact
 If you have any general doubt about our work, please use the [public issues section](repohttps://github.com/phananh1010/PanoSalNet/issues) on this github. Alternatively, drop us an e-mail at <mailto:anguyen139@student.gsu.edu> or <mailto:zyan@gsu.edu>.
