@@ -2,6 +2,7 @@
 #input: model config file: panosalnet_test.prototxt
 #       model weight: 'panosalnet_iter_800.caffemodel
 #       input image: test.png
+#output: salient map
 
 import cv2
 import numpy as np
