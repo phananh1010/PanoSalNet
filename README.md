@@ -29,7 +29,8 @@ Head movement prediction is the key enabler for the emerging 360-degree videos s
   ```
 ### Preparation
 1. Download our model weight file [here](https://www.dropbox.com/s/smiplkpqlv0npsm/panosalnet_iter_800.caffemodel?dl=0)
-2. Copy the file to the same folder with panosalnet.py file. 
+2. Download [image_test_lmdb4](https://www.dropbox.com/s/pbhpor25cxabx17/image_test_lmdb4.zip?dl=0) and [salient_test_lmdb4](https://www.dropbox.com/s/v8gn4hbn7qisk6u/salient_test_lmdb4.zip?dl=0) files, which required by .prototxt file.
+3. Copy the files to the same folder with panosalnet.py file. 
 
 ### Test/Evaluation
 To run our model, please refer to panosalnet.py.
