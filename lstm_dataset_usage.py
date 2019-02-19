@@ -1,6 +1,7 @@
 
 #This python file explains steps taken to read the user head orientation vectors and saliency maps from file "salient_ds_dict_w16_h9"
 #NOTE: this code assumes the file "salient_ds_dict_w16_h9" is in current working directory
+#the link to access this file is: https://www.dropbox.com/s/r09s1yqr2qyluyr/salient_ds.zip?dl=0
 
 import pickle
 import numpy as np
