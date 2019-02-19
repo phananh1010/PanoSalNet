@@ -26,7 +26,7 @@ VID_NAME = '5'
 UID = 14
 TIME_INDEX = 3 #index=3 is associated with video time 152.189
 
-saliency_map = salient_ds_dict['360net'][VID_NAME]['salient'][UID][TIME_INDEX]
+saliency_map = salient_ds_dict['360net'][VID_NAME]['salient'][TIME_INDEX]
 headpos = salient_ds_dict['360net'][VID_NAME]['headpos'][UID][TIME_INDEX]
 
 print 'saliency map & head position associated with video "5" at time t=152.189'
