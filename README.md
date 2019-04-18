@@ -3,7 +3,7 @@ This repository contains the source code for the PanoSalnet model in the ACMMM18
 
 Anh Nguyen, Zhisheng Yan, and Klara Nahrstedt 2018. Your Attention is Unique: Detecting 360-Degree Video Saliency in Head-Mounted Display for Head Movement Prediction. In ACM Multimedia Conference for 2018 (ACMMM2018)
 
-To cite our paper, use this Bitex code: 
+To cite our paper, use this Bibtex code: 
 ```
 @inproceedings{panosalnet2018,
   author = {Nguyen, Anh and Yan, Zhisheng and Nahrstedt, Klara},
